@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: rgb(103, 70, 181);
+    text-align: center;
+
+}
+.container{
+    height: 70vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    /* background-color: blue; */
+   align-items: center;
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+  
+
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(28, 31, 30);
+    color: rgb(232, 13, 13);
+   
+}
+#re{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(32, 29, 29);
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+   
+}
+#newbutton{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(32, 29, 29);
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+
+}
+#message{
+    color: aliceblue;
+    font-size: 5vmin;
+}
+
+.messageContainer{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
